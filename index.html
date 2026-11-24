@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NaijaRent | Find Your Dream Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="icons/icons/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+     <header class="header">
+        <a href="#" class="logo">Naija <span>Rent</span></a>
+
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#properties">Apartments</a>
+            <a href="#">Find an Agent</a>
+            <a href="#">About Us</a>
+        </nav>
+
+        <div class="navbar2">
+            <a href="#" class="login">Login</a>
+            <a href="#" class="list-your-property">List Your Property</a>
+
+        </div>
+
+        <button class="menu-button" aria-label="Open menu">
+            <i class="bi bi-list"></i>
+
+        </button>
+
+     </header>
+
+     <!-- Hero Section -->
+      <section class="hero">
+        <div class="hero-content">
+            <span class="tag">YOUR NEXT HOME STARTS HERE</span>
+
+            <h1>Find a Place You'll Love to Call <span>Home.</span></h1>
+
+            <p>
+                Discover available apartments acros nigeria.
+                Compare prices, explore properties and connect
+                with verified property agents.
+            </p>
+
+            <!-- Search Box -->
+             <div class="search-box">
+
+                <div class="search-field">
+                    <label><i class="bi bi-geo-alt"></i> Location</label>
+                    <input type="text" id="location"
+                    placeholder="Enter city or area">
+                </div>
+
+             
+
+                <div class="search-field">
+                    <label><i class="bi bi-house"></i> Property Type</label>
+                    <select  id="bedrooms">
+                        <option value="">Any bedroom</option>
+                        <option value="1">1 bedroom</option>
+                        <option value="2">2 bedroom</option>
+                        <option value="3">3 bedroom</option>
+                        <option value="4">4+ bedroom</option>
+                    </select>
+                </div>
+
+                 <div class="search-field">
+                    <label><i class="bi bi-wallet2"></i> Maximum Rent</label>
+                    <select  id="budget">
+                        <option value="">Any budget</option>
+                        <option value="500000">500,000</option>
+                        <option value="1000000">1,000,000</option>
+                        <option value="2000000">2,000,000</option>
+                        <option value="5000000">5,000,000</option>
+                    </select>
+                </div>
+
+                <button class="search-button">
+                    <i class="bi bi-search"></i>Search
+                </button>
+                
+                
+
+             </div>
+
+        </div>
+
+      </section>
+
+      <!-- Properties Section -->
+       <section class="properties" id="properties">
+
+        <div class="section-heading">
+            <div>
+                <span class="tag">EXPLORE PROPERTIES</span>
+                <h2>Available Apartments</h2>
+                <p>Find apartments that match your needs.</p>
+            </div>
+            <a href="#">View All <i class="bi bi-arrow-right"></i></a>
+        </div>
+        <div class="propery-grid" id="propertyGrid">
+
+            <!-- JavaScript will display property cards here -->
+        </div>
+       
+         <p id="noResults" class="no-results" hidden>
+            No apartments match your search. Try different filters.
+        </p>
+
+    </section>
+
+    <!-- Agent Section -->
+    <section class="agentpart">
+        <div>
+            <span class="tag">FOR PROPERTY OWNERS & AGENTS</span>
+            <h2>Have an Apartment to Rent?</h2>
+            <p>
+                List your property on NaijaRent and connect
+                with people searching for their next home.
+            </p>
+        </div>
+
+        <a href="#" class="post-btn">Become a Listing Agent</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <a href="#" class="logo">Naija<span>Rent</span></a>
+        <p>Making house hunting easier across Nigeria.</p>
+        <p class="copyright">&copy; 2026 NaijaRent. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
